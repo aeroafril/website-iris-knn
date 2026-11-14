@@ -30,7 +30,7 @@ def predict():
         data = request.get_json()
 
         sl = float(data.get('sepal_length'))
-        sw = float(data.get('sepal.weight'))
+        sw = float(data.get('sepal_weight'))
         pl = float(data.get('petal_length'))
         pw = float(data.get('petal_weight'))
 

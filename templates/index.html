@@ -9,25 +9,25 @@
 <body>
     <h2 class="lilita-one-regular">Deteksi Bunga Iris</h2>
     <form>
-        <label for="SL">Sepal Length</label>
-        <input type="text" inputmode="decimal" id="LW" placeholder="Sepal Length" required>
+        <label for="SL">Sepal Length: </label>
+        <input type="text" inputmode="decimal" id="SL" placeholder="Sepal Length" required>
 
-        <label for="SW">Sepal Width</label>
-        <input type="text" inputmode="decimal" id="LD" placeholder="Sepal Width" required>
+        <label for="SW">Sepal Width: </label>
+        <input type="text" inputmode="decimal" id="SW" placeholder="Sepal Width" required>
 
-        <label for="PL">Petal Length</label>
-        <input type="text" inputmode="decimal" id="RW" placeholder="Petal Length" required>
+        <label for="PL">Petal Length: </label>
+        <input type="text" inputmode="decimal" id="PL" placeholder="Petal Length" required>
 
-        <label for="PW">Petal Width</label>
-        <input type="text" inputmode="decimal" id="RD" placeholder="Petal Width" required>
+        <label for="PW">Petal Width: </label>
+        <input type="text" inputmode="decimal" id="PW" placeholder="Petal Width" required>
 
         <h3 id="hasil"></h3>
+
         <div class="button">
             <input type="reset" id="reset">
             <input type="submit" id="submit">
         </div>
     </form>
-
 
     <script src="{{url_for('static', filename='script.js')}}"></script>
 </body>
